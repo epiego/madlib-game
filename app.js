@@ -24,6 +24,7 @@ const input8 = document.getElementById('noun-4-input');
 const input9 = document.getElementById('verb-3-input');
 
 const button = document.getElementById('create-button');
+const toggle = document.getElementById('hidden');
 
 // initialize state
 
@@ -33,7 +34,14 @@ const button = document.getElementById('create-button');
 
 button.addEventListener('click', () => {
     noun1.textContent = input1.value;
-    noun2
-
+    noun2.textContent = input2.value;
+    noun3.textContent = input3.value;
+    noun4.textContent = input4.value;
+    verb1.textContent = input5.value;
+    verb2.textContent = input6.value;
+    verb3.textContent = input7.value;
+    adjective1.textContent = input8.value;
+    adjective2.textContent = input9.value;
+    toggle.style.display = 'none';
 
 })

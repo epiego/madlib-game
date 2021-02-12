@@ -1,6 +1,15 @@
 body{
     background-image: url("../assets/dog-general.jpg");
     background-position: center;
+    
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
+.hidden{
+    display: flex;
+    display: none;
+}
