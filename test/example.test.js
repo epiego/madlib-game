@@ -1,5 +1,8 @@
 
-import { dom-utilities.js } from '../dom-utilities.js';
+import { sync } from '../dom-utilities.js';
+
+const test = QUnit.test;
+
 test('sync input to element', (expect) => {
     //Arrange
     const input = document.createElement('input');
@@ -11,7 +14,6 @@ test('sync input to element', (expect) => {
     sync(input, span);
 
 
-    export
     //Expect
     expect.equal(span.textContent, expected);
 });
