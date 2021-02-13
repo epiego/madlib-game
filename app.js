@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { sync } from '../dom-utilities.js';
+
 
 const noun1 = document.getElementById('noun-1');
 const noun2 = document.getElementById('noun-2');
@@ -42,6 +42,6 @@ button.addEventListener('click', () => {
     verb3.textContent = input7.value;
     adjective1.textContent = input8.value;
     adjective2.textContent = input9.value;
-    toggle.style.display = 'none';
+    toggle.style.display = 'block';
 
 })
